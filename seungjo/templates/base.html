@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShareGuide</title>
+    <h1>Share the Travel information</h1>
+</head>
+
+<body>
+
+    {% block contents %}
+    {% endblock %}
+
+</body>
+
+<footer>
+    <h5><a href = "{% url 'main' %}">MAIN</a></h5>
+    <h5><a href = "{% url 'profile' %}">PROFILE</a></h5>
+    <h5><a href = "{% url 'portfolio' %}">PORTFOLIO</a></h5>
+    
+</footer>
+
+
+</html>
